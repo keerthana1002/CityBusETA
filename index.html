@@ -1,15 +1,19 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bus ETA Estimator</title>
+
     <style>
         body {
-            font-family: Arial;
+            font-family: Arial, sans-serif;
             text-align: center;
             background: #eef2f7;
             padding: 50px;
         }
+
         .box {
             background: white;
             padding: 25px;
@@ -17,11 +21,21 @@
             margin: auto;
             border-radius: 10px;
         }
+
+        label {
+            display: block;
+            text-align: left;
+            margin: 8px 5%;
+            font-weight: bold;
+        }
+
         input, button {
             width: 90%;
             padding: 10px;
             margin: 8px;
+            box-sizing: border-box;
         }
+
         button {
             background: #1769aa;
             color: white;
@@ -30,42 +44,59 @@
         }
     </style>
 </head>
+
 <body>
 
 <div class="box">
+
     <h2>City Bus ETA Estimator</h2>
 
-    <input type="number" id="distance" placeholder="Distance (km)" min="0">
-    <input type="number" id="speed" placeholder="Speed (km/h)" min="0">
-    <input type="number" id="delay" placeholder="Traffic delay (minutes)" min="0">
+    <label for="distance">Distance (km)</label>
+    <input type="text" id="distance" placeholder="Enter distance">
+
+    <label for="speed">Speed (km/h)</label>
+    <input type="text" id="speed" placeholder="Enter speed">
+
+    <label for="delay">Traffic delay (minutes)</label>
+    <input type="text" id="delay" placeholder="Enter traffic delay">
 
     <button onclick="calculateETA()">Calculate ETA</button>
 
-    <h3 id="result"></h3>
+    <p id="result" role="status" aria-live="polite"></p>
+
 </div>
+
+<script src="./eta.js"></script>
 
 <script>
 function calculateETA() {
-    let d = document.getElementById("distance").value;
-    let s = document.getElementById("speed").value;
-    let t = document.getElementById("delay").value || 0;
-    let result = document.getElementById("result");
+    const d = document.getElementById("distance").value;
+    const s = document.getElementById("speed").value;
+    const t = document.getElementById("delay").value || "0";
 
-    d = Number(d);
-    s = Number(s);
-    t = Number(t);
+    const result = document.getElementById("result");
 
-    if (document.getElementById("distance").value === "" ||
-        document.getElementById("speed").value === "" ||
-        d < 0 || s <= 0 || t < 0 ||
-        !Number.isFinite(d) || !Number.isFinite(s) ||
-        !Number.isFinite(t)) {
+    if (d.trim() === "" || s.trim() === "" ||
+        t.trim() === "" ||
+        !Number.isFinite(Number(d)) ||
+        !Number.isFinite(Number(s)) ||
+        !Number.isFinite(Number(t))) {
+
         result.innerText = "Please enter valid values!";
         return;
     }
 
-    let eta = Math.ceil((d / s) * 60 + t);
-    result.innerText = "Estimated Arrival Time: " + eta + " minutes";
+    try {
+        const eta = estimateArrivalTime(
+            Number(d), Number(s), Number(t)
+        );
+
+        result.innerText =
+            "Estimated Arrival Time: " + eta + " minutes";
+
+    } catch (error) {
+        result.innerText = "Error: " + error.message;
+    }
 }
 </script>
 
