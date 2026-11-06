@@ -17,4 +17,12 @@ function estimateArrivalTime(distance, speed, trafficDelay = 0) {
     return Math.ceil(travelTime + trafficDelay);
 }
 
-console.log(estimateArrivalTime(10, 30, 5));
+// Export the function for Node.js tests
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { estimateArrivalTime };
+}
+
+// Test in the browser
+if (typeof window !== 'undefined') {
+    console.log(estimateArrivalTime(10, 30, 5));
+}

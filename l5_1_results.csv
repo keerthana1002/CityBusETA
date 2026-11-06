@@ -1,0 +1,51 @@
+Run,TestCase,Expected,Actual,Status
+1,TC01,"25","25",PASS
+1,TC02,"20","20",PASS
+1,TC03,"0","0",PASS
+1,TC04,"35","35",PASS
+1,TC05,"15","15",PASS
+1,TC06,"Speed must be greater than zero","Speed must be greater than zero",PASS
+1,TC07,"Invalid distance","Invalid distance",PASS
+1,TC08,"Invalid traffic delay","Invalid traffic delay",PASS
+1,TC09,"Invalid distance","Invalid distance",PASS
+1,TC10,"Speed must be greater than zero","Speed must be greater than zero",PASS
+2,TC01,"25","25",PASS
+2,TC02,"20","20",PASS
+2,TC03,"0","0",PASS
+2,TC04,"35","35",PASS
+2,TC05,"15","15",PASS
+2,TC06,"Speed must be greater than zero","Speed must be greater than zero",PASS
+2,TC07,"Invalid distance","Invalid distance",PASS
+2,TC08,"Invalid traffic delay","Invalid traffic delay",PASS
+2,TC09,"Invalid distance","Invalid distance",PASS
+2,TC10,"Speed must be greater than zero","Speed must be greater than zero",PASS
+3,TC01,"25","25",PASS
+3,TC02,"20","20",PASS
+3,TC03,"0","0",PASS
+3,TC04,"35","35",PASS
+3,TC05,"15","15",PASS
+3,TC06,"Speed must be greater than zero","Speed must be greater than zero",PASS
+3,TC07,"Invalid distance","Invalid distance",PASS
+3,TC08,"Invalid traffic delay","Invalid traffic delay",PASS
+3,TC09,"Invalid distance","Invalid distance",PASS
+3,TC10,"Speed must be greater than zero","Speed must be greater than zero",PASS
+4,TC01,"25","25",PASS
+4,TC02,"20","20",PASS
+4,TC03,"0","0",PASS
+4,TC04,"35","35",PASS
+4,TC05,"15","15",PASS
+4,TC06,"Speed must be greater than zero","Speed must be greater than zero",PASS
+4,TC07,"Invalid distance","Invalid distance",PASS
+4,TC08,"Invalid traffic delay","Invalid traffic delay",PASS
+4,TC09,"Invalid distance","Invalid distance",PASS
+4,TC10,"Speed must be greater than zero","Speed must be greater than zero",PASS
+5,TC01,"25","25",PASS
+5,TC02,"20","20",PASS
+5,TC03,"0","0",PASS
+5,TC04,"35","35",PASS
+5,TC05,"15","15",PASS
+5,TC06,"Speed must be greater than zero","Speed must be greater than zero",PASS
+5,TC07,"Invalid distance","Invalid distance",PASS
+5,TC08,"Invalid traffic delay","Invalid traffic delay",PASS
+5,TC09,"Invalid distance","Invalid distance",PASS
+5,TC10,"Speed must be greater than zero","Speed must be greater than zero",PASS

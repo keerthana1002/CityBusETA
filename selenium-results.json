@@ -1,0 +1,332 @@
+[
+  {
+    "run": 1,
+    "test": "TC01",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 25 minutes"
+  },
+  {
+    "run": 1,
+    "test": "TC02",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 20 minutes"
+  },
+  {
+    "run": 1,
+    "test": "TC03",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 0 minutes"
+  },
+  {
+    "run": 1,
+    "test": "TC04",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 35 minutes"
+  },
+  {
+    "run": 1,
+    "test": "TC05",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 15 minutes"
+  },
+  {
+    "run": 1,
+    "test": "TC06",
+    "status": "PASS",
+    "actual": "Error: Speed must be greater than zero"
+  },
+  {
+    "run": 1,
+    "test": "TC07",
+    "status": "PASS",
+    "actual": "Error: Invalid distance"
+  },
+  {
+    "run": 1,
+    "test": "TC08",
+    "status": "PASS",
+    "actual": "Error: Invalid traffic delay"
+  },
+  {
+    "run": 1,
+    "test": "TC09",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 1,
+    "test": "TC10",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 1,
+    "test": "TOTAL",
+    "status": "TIME",
+    "actual": "5.028"
+  },
+  {
+    "run": 2,
+    "test": "TC01",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 25 minutes"
+  },
+  {
+    "run": 2,
+    "test": "TC02",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 20 minutes"
+  },
+  {
+    "run": 2,
+    "test": "TC03",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 0 minutes"
+  },
+  {
+    "run": 2,
+    "test": "TC04",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 35 minutes"
+  },
+  {
+    "run": 2,
+    "test": "TC05",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 15 minutes"
+  },
+  {
+    "run": 2,
+    "test": "TC06",
+    "status": "PASS",
+    "actual": "Error: Speed must be greater than zero"
+  },
+  {
+    "run": 2,
+    "test": "TC07",
+    "status": "PASS",
+    "actual": "Error: Invalid distance"
+  },
+  {
+    "run": 2,
+    "test": "TC08",
+    "status": "PASS",
+    "actual": "Error: Invalid traffic delay"
+  },
+  {
+    "run": 2,
+    "test": "TC09",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 2,
+    "test": "TC10",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 2,
+    "test": "TOTAL",
+    "status": "TIME",
+    "actual": "4.006"
+  },
+  {
+    "run": 3,
+    "test": "TC01",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 25 minutes"
+  },
+  {
+    "run": 3,
+    "test": "TC02",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 20 minutes"
+  },
+  {
+    "run": 3,
+    "test": "TC03",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 0 minutes"
+  },
+  {
+    "run": 3,
+    "test": "TC04",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 35 minutes"
+  },
+  {
+    "run": 3,
+    "test": "TC05",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 15 minutes"
+  },
+  {
+    "run": 3,
+    "test": "TC06",
+    "status": "PASS",
+    "actual": "Error: Speed must be greater than zero"
+  },
+  {
+    "run": 3,
+    "test": "TC07",
+    "status": "PASS",
+    "actual": "Error: Invalid distance"
+  },
+  {
+    "run": 3,
+    "test": "TC08",
+    "status": "PASS",
+    "actual": "Error: Invalid traffic delay"
+  },
+  {
+    "run": 3,
+    "test": "TC09",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 3,
+    "test": "TC10",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 3,
+    "test": "TOTAL",
+    "status": "TIME",
+    "actual": "4.269"
+  },
+  {
+    "run": 4,
+    "test": "TC01",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 25 minutes"
+  },
+  {
+    "run": 4,
+    "test": "TC02",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 20 minutes"
+  },
+  {
+    "run": 4,
+    "test": "TC03",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 0 minutes"
+  },
+  {
+    "run": 4,
+    "test": "TC04",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 35 minutes"
+  },
+  {
+    "run": 4,
+    "test": "TC05",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 15 minutes"
+  },
+  {
+    "run": 4,
+    "test": "TC06",
+    "status": "PASS",
+    "actual": "Error: Speed must be greater than zero"
+  },
+  {
+    "run": 4,
+    "test": "TC07",
+    "status": "PASS",
+    "actual": "Error: Invalid distance"
+  },
+  {
+    "run": 4,
+    "test": "TC08",
+    "status": "PASS",
+    "actual": "Error: Invalid traffic delay"
+  },
+  {
+    "run": 4,
+    "test": "TC09",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 4,
+    "test": "TC10",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 4,
+    "test": "TOTAL",
+    "status": "TIME",
+    "actual": "3.701"
+  },
+  {
+    "run": 5,
+    "test": "TC01",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 25 minutes"
+  },
+  {
+    "run": 5,
+    "test": "TC02",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 20 minutes"
+  },
+  {
+    "run": 5,
+    "test": "TC03",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 0 minutes"
+  },
+  {
+    "run": 5,
+    "test": "TC04",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 35 minutes"
+  },
+  {
+    "run": 5,
+    "test": "TC05",
+    "status": "PASS",
+    "actual": "Estimated Arrival Time: 15 minutes"
+  },
+  {
+    "run": 5,
+    "test": "TC06",
+    "status": "PASS",
+    "actual": "Error: Speed must be greater than zero"
+  },
+  {
+    "run": 5,
+    "test": "TC07",
+    "status": "PASS",
+    "actual": "Error: Invalid distance"
+  },
+  {
+    "run": 5,
+    "test": "TC08",
+    "status": "PASS",
+    "actual": "Error: Invalid traffic delay"
+  },
+  {
+    "run": 5,
+    "test": "TC09",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 5,
+    "test": "TC10",
+    "status": "PASS",
+    "actual": "Please enter valid values!"
+  },
+  {
+    "run": 5,
+    "test": "TOTAL",
+    "status": "TIME",
+    "actual": "4.679"
+  }
+]

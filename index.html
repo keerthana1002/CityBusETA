@@ -52,13 +52,13 @@
     <h2>City Bus ETA Estimator</h2>
 
     <label for="distance">Distance (km)</label>
-    <input type="text" id="distance" placeholder="Enter distance">
+    <input type="number" id="distance" placeholder="Distance (km)" min="0" step="any" required>
 
     <label for="speed">Speed (km/h)</label>
-    <input type="text" id="speed" placeholder="Enter speed">
+    <input type="number" id="speed" placeholder="Speed (km/h)" min="0.01" step="any" required>
 
     <label for="delay">Traffic delay (minutes)</label>
-    <input type="text" id="delay" placeholder="Enter traffic delay">
+    <input type="number" id="delay" placeholder="Traffic delay (minutes)" min="0" step="any">
 
     <button onclick="calculateETA()">Calculate ETA</button>
 
